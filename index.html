@@ -11,10 +11,10 @@
 
 <body>
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top py-3">
+    <nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top py-3 port_top">
 
     <div class="container">
-        <a href="#" class="navbar-brand">SembraniTravel</a>
+        <a href="#" class="navbar-brand"><img src="dist/img/logo.png" alt="logo" width="50"></a>
 
         <button
             class="navbar-toggler"
@@ -31,6 +31,9 @@
                         <a href="#services" class="nav-link">Service</a>
                     </li>
                     <li class="nav-item">
+                        <a href="#destination" class="nav-link">Destination</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="#promo" class="nav-link">Promo</a>
                     </li>
                     <li class="nav-item">
@@ -43,34 +46,41 @@
     <!-- Navbar End -->
 
     <!-- Header Start -->
-    <section class="bg-light text-dark text-center text-sm-start pt-5 pb-5 pb-lg-0 mt-5">
+    <section class="bg-light text-dark text-center text-sm-start pt-5 pb-5 pb-lg-0 mt-5 pt-3 pb-4 pb-lg-4">
         <div class="container">
-            <div class="d-flex align-items-center">
-            <div>
-                <h1><span class="text-primary">Sembrani</span> Tour, <span class="text-primary">Sembrani</span> Travel</h1>
-                <p class="lead">
-                    Jalan-jalan, Melepas penat, Mengisi hari. - Sembrani travel.
-                </p>
-                <a href="#contact">
-                <button class="btn btn-primary btn-lg mb-3">
-                    Yuk Berangkat!
-                </button>
-            </a>
-            </div>
-
-            <img class="img-fluid w-50 d-none d-sm-block" src="img/header_svg.svg" alt="header">
+            <div class="d-flex flex-column flex-sm-row align-items-center justify-content-center port_top">
+                <div class="text-center text-sm-start mb-4 mb-sm-0 pt-lg-5">
+                    <img class="img-fluid d-block d-sm-none mb-3 w-75 mx-auto pt-5" src="dist/img/header_svg.svg" alt="header">
+                    <h1><span class="text-primary">Sembrani</span> Tour, <span class="text-primary">Sembrani</span> Travel</h1>
+                    <p class="lead">
+                        Jalan-jalan, Melepas penat, Mengisi hari. - Sembrani travel.
+                    </p>
+                    <a href="#contact">
+                        <button class="btn btn-primary btn-lg mb-3">
+                            Yuk Berangkat!
+                        </button>
+                    </a>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="dist/img/header_svg.svg" alt="header">
             </div>
         </div>
     </section>
+    
     <!-- Header End -->
+
+    <!-- About Start -->
+
+     <!-- About End -->
 
     <!-- Services Start -->
         <section class="p-5" id="services">
             <div class="container">
                 <div class="row text-center g-4">
-                    <div class="col-md">
+                    <h2 class="text-uppercase">Services</h2>
+
+                    <div class="col-md port_card">
                         <div class="card bg-light text-dark border">
-                            <img src="img/passenger-regular.svg" class="p-2 card-img-top" alt="...">
+                            <img src="dist/img/passenger-regular.svg" class="p-2 card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Regular Passenger</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -78,9 +88,9 @@
                             </div>
                           </div>
                     </div>
-                    <div class="col-md">
+                    <div class="col-md skill_card">
                         <div class="card bg-info text-light border-0">
-                            <img src="img/private-services.svg" class="p-2 card-img-top" alt="...">
+                            <img src="dist/img/private-services.svg" class="p-2 card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Private Passenger</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -88,9 +98,9 @@
                             </div>
                           </div>
                     </div>
-                    <div class="col-md">
+                    <div class="col-md port_card">
                         <div class="card bg-light text-dark border">
-                            <img src="img/parcel.svg" class="p-2 card-img-top" alt="...">
+                            <img src="dist/img/parcel.svg" class="p-2 card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Parcel</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -103,8 +113,55 @@
         </section>
      <!-- Services End -->
 
+     <!-- Destination Start -->
+        <section class="p-5" id="destination">
+            <div class="container">
+                <div class="row text-center g-4">
+                    <h2 class="text-uppercase">Destination</h2>
+
+
+                    <div class="col-md">
+                        <div class="card bg-info text-light border-0 port_card">
+                            <div class="card-body">
+                              <h5 class="card-title">Surabaya - Banyuwangi</h5>
+                             
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md ">
+                        <div class="card bg-light text-dark border skill_card">
+                            <div class="card-body">
+                              <h5 class="card-title">Banyuwangi - Surabaya</h5>
+                             
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card bg-info text-light border port_card">
+                            <div class="card-body">
+                              <h5 class="card-title">Malang - Banyuwangi</h5>
+                            
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card bg-light text-dark border skill_card">
+                            <div class="card-body">
+                              <h5 class="card-title">Banyuwangi - Malang</h5>
+                              
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      <!-- Destination End -->
+
+      <!-- Armada Start -->
+       <!-- Armada End -->
+
      <!-- Promo Start -->
-      <section class="bg-primary text-light p-5" id="promo">
+      <section class="bg-primary text-light p-5 skill_card" id="promo">
         <div class="container">
             <div class="d-md-flex justify-content-between align-items-center">
                 <h3>Dapatkan promo menarik</h3>
@@ -115,14 +172,12 @@
                 <button class="btn btn-dark btn-lg" type="button">Submit</button>
             </div>
         </div>
-
-        </div>
-
-      </section>
+    </div>
+     </section>
       <!-- Promo End -->
 
       <!-- Contact us Start -->
-       <section class="p-5" id="contact">
+       <section class="p-5 port_card" id="contact">
         <div class="container">
             <div class="row g-4 align-items-center">
                 <div class="col-md">
@@ -144,7 +199,7 @@
                     </ul>
                 </div>
                 <div class="col-md">
-                    <img class="img-fluid d-none d-sm-block" src="img/contact-services.svg" alt="contact">
+                    <img class="img-fluid d-none d-sm-block" src="dist/img/contact-services.svg" alt="contact">
                 </div>
             </div>
         </div>
@@ -162,7 +217,40 @@
         </div>
        </footer>
        <!-- footer end -->
+
+       <!-- Script JS Start -->
+       <!-- <script src="dist/js/script.js"></script> -->
+       <script src="https://unpkg.com/scrollreveal"></script>
+        <!-- Script JS End -->
+
+        <script>
+            const sr = ScrollReveal({
+                origin: "top",
+                distance: "60px",
+                duration: 2500,
+                delay: 400
+            });
+    
+            sr.reveal(".hero__image");
+            sr.reveal(".hero__content", { origin: "bottom" });
+            sr.reveal(".hero__footer", { origin: "bottom", delay: 1200 });
+    
+            sr.reveal(".service_top", { origin: "bottom" });
+            sr.reveal(".service__item", { origin: "bottom", interval: 300 });
+    
+            sr.reveal(".recent_portf_top", { origin: "bottom" });
+            sr.reveal(".recent_protf_tabs", { origin: "bottom", delay: 800 });
+            sr.reveal(".work_card", { origin: "bottom", delay: 1200 });
+    
+            sr.reveal(".port_top", { origin: "top" });
+            sr.reveal(".port_card", { origin: "left", interval: 300 });
+    
+            sr.reveal(".skill_top", { origin: "top" });
+            sr.reveal(".skill_card", { origin: "right", interval: 300 });
+        </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -2,6 +2,15 @@
     height: 150px;   
 }
 
+#destination img{
+    height: 150px;   
+}
+
 .nav-item{
     padding-right: 30px;
+    text-align: center;
+}
+
+.navbar-brand img{
+    margin-left: 20px;
 }
