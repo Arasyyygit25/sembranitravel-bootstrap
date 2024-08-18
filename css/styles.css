@@ -14,3 +14,37 @@
 .navbar-brand img{
     margin-left: 20px;
 }
+
+@media (min-width: 992px){
+    .custom-padding{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+.font-arial {
+    font-family: arial; /* Mengatur font ke Arial */
+}
+
+.font-semi-bold {
+    font-weight: 600; /* Semi-bold font weight */
+}
+
+/* size jarak untuk perangkat mobile*/
+@media (min-width: 768px) {
+    .text-content {
+        font-size: 1.25rem; /* Ukuran font yang lebih besar di perangkat desktop */
+    }
+
+    .lead {
+        margin-bottom: 1.5rem; /* Menambahkan jarak bawah untuk paragraf lead di desktop */
+    }
+    
+    .text-primary {
+        color: #007bff; /* Menambahkan warna primer pada teks */
+    }
+}
+
+#about{
+    margin-bottom:5p
+}
