@@ -123,6 +123,17 @@
     z-index: 1000; /* Ensures the button is above other content */
 }
 
+.card-video {
+    width: 100%;
+    height: auto; /* Menjaga rasio aspek video tetap proporsional */
+    border: 2px solid #ddd; /* Menambahkan border berwarna abu-abu terang */
+    border-radius: 8px; /* Menambahkan sudut melengkung pada border (opsional) */
+}
 
+/* Border yang lebih menonjol jika diperlukan */
+.card-video-bordered {
+    border: 3px solid #333; /* Border berwarna abu-abu gelap */
+    border-radius: 8px; /* Menambahkan sudut melengkung pada border */
+}
 
 
