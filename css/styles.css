@@ -86,6 +86,18 @@
 /* Rute CSS End*/
 
 /* Armada CSS Start */
+.card {
+    border: 2px solid #e0e0e0; /* Warna border sedikit lebih gelap dari putih */
+    border-radius: 8px; /* Border-radius 8px */
+    overflow: hidden; /* Agar border-radius berlaku juga untuk video */
+    margin-bottom: 20px; /* Menambahkan jarak antara kartu */
+    padding: 15px;
+}
+
+.text-justify {
+    text-align: justify; /* Membuat teks rata kanan dan kiri */
+}
+
 .card-video {
     border-radius: 8px; 
 }
