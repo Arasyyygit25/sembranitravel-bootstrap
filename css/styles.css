@@ -1,13 +1,10 @@
-#services img{
-    height: 150px;   
-}
-
-#destination img{
-    height: 150px;   
+/* Navbar Css Start*/
+.navbar-nav .nav-link {
+    font-size: 1.15rem; /* Ukuran teks default */
 }
 
 .nav-item{
-    padding-right: 30px;
+    padding-right: 20px;
     text-align: center;
 }
 
@@ -22,6 +19,43 @@
     }
 }
 
+/* Mengubah warna teks link navbar saat hover */
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Warna biru untuk teks */
+}
+
+
+.navbar-nav .nav-link {
+    transition: color 0.3s ease; /* Transisi warna selama 0.3 detik */
+}
+
+/* Ukuran teks navbar untuk perangkat kecil (mobile) */
+@media (max-width: 767px) {
+    .navbar-nav .nav-link {
+        font-size: 1.15rem; /* Ukuran teks lebih kecil untuk perangkat mobile */
+    }
+}
+/* Navbar Css end*/
+
+
+/* Services CSS Start*/
+#services img{
+    height: 150px;   
+}
+/* Services CSS End*/
+
+/* Rute CSS Start*/
+#rute img{
+    height: 150px;   
+}
+/* Rute CSS End*/
+
+/* About CSS Start*/
+
+#about{
+    margin-bottom:5px;
+}
+
 #about-2{
     margin-bottom:100px;
 }
@@ -31,8 +65,33 @@
     margin-left: 0px;
     
 }
+/* About CSS End*/
 
+/* Fasilitas CSS Start */
+/* Untuk memastikan text di Fasilitas di sebelah kiri */
+@media (min-width: 992px) {
+    .text-lg-start {
+        text-align: left;
+    }
+    .col-lg-6 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+/* Fasilitas CSS End */
 
+/* Armada CSS Start */
+.card-video {
+    border-radius: 8px; 
+}
+
+.card-video-bordered {
+    border-radius: 15px; 
+}
+/* Armada CSS End */
+
+/* CSS tambahan Start */
 .font-arial {
     font-family: arial; /* Mengatur font ke Arial */
 }
@@ -56,34 +115,20 @@
     }
 }
 
-#about{
-    margin-bottom:5px;
+
+.text-check-services {
+    display: inline-block;
+    font-size: 1rem;
+    word-wrap: break-word;
 }
 
-/* Ukuran teks navbar untuk perangkat besar */
-.navbar-nav .nav-link {
-    font-size: 1.25rem; /* Ukuran teks default */
-}
-
-/* Ukuran teks navbar untuk perangkat kecil (mobile) */
-@media (max-width: 767px) {
-    .navbar-nav .nav-link {
-        font-size: 1.15rem; /* Ukuran teks lebih kecil untuk perangkat mobile */
+@media (max-width: 576px) {
+    .text-check-services {
+        font-size: 0.9rem;
     }
 }
 
-/* CSS tambahan */
-/* Mengubah warna teks link navbar saat hover */
-.navbar-nav .nav-link:hover {
-    color: #007bff; /* Warna biru untuk teks */
-}
 
-/* Opsional: Jika Anda ingin menambahkan efek transisi */
-.navbar-nav .nav-link {
-    transition: color 0.3s ease; /* Transisi warna selama 0.3 detik */
-}
-
-/* CSS tambahan */
 .text-justify-center {
     display: flex;
     justify-content: center;
@@ -96,43 +141,19 @@
     width: 100%;
 }
 
-/* Untuk memastikan text di Fasilitas di sebelah kiri */
-@media (min-width: 992px) {
-    .text-lg-start {
-        text-align: left;
-    }
-    .col-lg-6 {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-}
-
+/* Scrool to top button */
 .scroll-to-top {
-    position: fixed; /* Fixed position for scrolling */
-    bottom: 2rem; /* Distance from the bottom */
-    right: 2.5rem; /* Distance from the right */
-    color: #007bff; /* Blue color */
-    font-size: 2rem; /* Larger font size */
-    
-    
-    padding: 1rem; /* Padding around the icon */
-   
-    text-align: center; /* Centering the icon */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
-    z-index: 1000; /* Ensures the button is above other content */
+    position: fixed; 
+    bottom: 1rem; 
+    right: 1.0rem; 
+    color: #007bff; 
+    font-size: 2rem; 
+    padding: 1rem; 
+    text-align: center; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    z-index: 1000; 
 }
 
-.card-video {
-   /* Menambahkan border berwarna abu-abu terang */
-    border-radius: 8px; /* Menambahkan sudut melengkung pada border (opsional) */
-}
-
-/* Border yang lebih menonjol jika diperlukan */
-.card-video-bordered {
-  
-    border-radius: 15px; /* Menambahkan sudut melengkung pada border */
-}
-
+/* CSS tambahan End*/
 
