@@ -37,21 +37,7 @@
 }
 /* Navbar Css end*/
 
-
-/* Services CSS Start*/
-#services img{
-    height: 150px;   
-}
-/* Services CSS End*/
-
-/* Rute CSS Start*/
-#rute img{
-    height: 150px;   
-}
-/* Rute CSS End*/
-
 /* About CSS Start*/
-
 #about{
     margin-bottom:5px;
 }
@@ -65,7 +51,19 @@
     margin-left: 0px;
     
 }
+
+.text-check-services {
+    display: inline-block;
+    font-size: 0.5rem;
+    word-wrap: break-word;
+}
 /* About CSS End*/
+
+/* Services CSS Start*/
+#services img{
+    height: 150px;   
+}
+/* Services CSS End*/
 
 /* Fasilitas CSS Start */
 /* Untuk memastikan text di Fasilitas di sebelah kiri */
@@ -80,6 +78,12 @@
     }
 }
 /* Fasilitas CSS End */
+
+/* Rute CSS Start*/
+#rute img{
+    height: 150px;   
+}
+/* Rute CSS End*/
 
 /* Armada CSS Start */
 .card-video {
@@ -115,12 +119,6 @@
     }
 }
 
-
-.text-check-services {
-    display: inline-block;
-    font-size: 1rem;
-    word-wrap: break-word;
-}
 
 @media (max-width: 576px) {
     .text-check-services {
