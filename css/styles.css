@@ -86,7 +86,7 @@
 /* Rute CSS End*/
 
 /* Armada CSS Start */
-.card {
+.card-armada{
     border: 2px solid #e0e0e0; /* Warna border sedikit lebih gelap dari putih */
     border-radius: 8px; /* Border-radius 8px */
     overflow: hidden; /* Agar border-radius berlaku juga untuk video */
