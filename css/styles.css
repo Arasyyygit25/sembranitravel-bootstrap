@@ -53,8 +53,8 @@
 }
 
 .text-check-services {
-    display: inline-block;
-    font-size: 0.5rem;
+    display: inline;
+    font-size: 0.8rem;
     word-wrap: break-word;
 }
 /* About CSS End*/
